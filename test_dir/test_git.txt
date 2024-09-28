@@ -1,0 +1,9 @@
+import javax.swing.JOptionPane;
+
+public class Caculator {
+    public static void main(String[] args){
+        String strNum1, strNum2; // khai bao bien string => thuoc tinh
+
+        //nhap gia tri vao bien
+        strNum1 = JOptionPane.showInputDialog(null,"plz input first number: ", "input first number ", JOptionPane.INFORMATION_MESSAGE);
+        strNum2 = JOptionPane.showInputDialog(null,"plz input second number: ", "input second number ", JOptionPane.INFORMATION_MESSAGE);
